@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Music Festival</title>
-    <link href="styles.css" rel="stylesheet">
-   >
+    <title>Contact Us - Head Banger's Ball</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Music Festival</a>
+            <a class="navbar-brand" href="index.html">Headbanger's Ball</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -19,63 +18,64 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact Us.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 <div>
-    <img class="map"> 
-    <img src="images\Location map.jpg" alt="Map of Local area">
+    <img src="images/Location map.jpg" alt="Map of Local area" class="map img-fluid">
 </div>
 
     <!-- Contact Section -->
     <section id="contact" class="container my-5">
         <h2 class="text-center">Contact Us</h2>
         <p class="text-center">We'd love to hear from you! Reach out to us with any questions or feedback.</p>
+        <p class="text-center">Our Phone number is 555-645-9945</p>
+        <p class="text-center">Our email address is: Headbanger's_Ball@gmail.com</p>
     </section>
 
-    <!-- Accordion with Images -->
-    <div class="container">
-        <div class="accordion" id="contactAccordion">
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
-                        Festival Venue
-                    </button>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#contactAccordion">
-                    <div class="accordion-body text-center">
-                        <img src="https://via.placeholder.com/800x400" class="img-fluid" alt="Venue">
-                    </div>
+ <!-- Accordion with Images -->
+<div class="container">
+    <div class="accordion" id="contactAccordion">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                    Festival Venue
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#contactAccordion">
+                <div class="accordion-body text-center">
+                    <img src="images\Venue.jpg" class="accordion-img" alt="Venue">    
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
-                        Behind the Scenes
-                    </button>
-                </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#contactAccordion">
-                    <div class="accordion-body text-center">
-                        <img src="https://via.placeholder.com/800x400" class="img-fluid" alt="Behind the Scenes">
-                    </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                    Behind the Scenes
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#contactAccordion">
+                <div class="accordion-body text-center">
+                    <img src="images\Stage setup.jpg" class="accordion-img" alt="Stage setup">
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
-                        Crowd Energy
-                    </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#contactAccordion">
-                    <div class="accordion-body text-center">
-                        <img src="https://via.placeholder.com/800x400" class="img-fluid" alt="Crowd Energy">
-                    </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                    Crowd Energy
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#contactAccordion">
+                <div class="accordion-body text-center">
+                    <img src="images\Festival.jpg" class="accordion-img" alt="Festival">
                 </div>
             </div>
         </div>
     </div>
+</div>
 
     <!-- Footer -->
     <footer class="text-center bg-dark text-white py-3 mt-5">

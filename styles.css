@@ -1,0 +1,229 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: #f8f9fa !important;
+}
+
+/* Hero Section (Home page) */
+#home {
+    background-color: transparent; /* Removed blue background */
+    color: white;
+    padding: 40px 0;
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Center the images in the container */
+#home .container {
+    text-align: center;
+}
+
+#home img {
+    width: 80%; /* Set all images to 80% of the container width */
+    max-width: 800px; /* Set a maximum width to prevent images from getting too large */
+    height: auto;
+    margin: 0 auto;
+    display: block; /* Ensures the images are displayed as block-level elements */
+}
+
+.crowd {
+    display: flex;
+    justify-content: center; /* Horizontally centers the images */
+    align-items: center; /* Vertically centers the images */
+    flex-direction: column; /* Stack images vertically if needed */
+}
+
+.crowd img {
+    width: 100%;
+    max-width: 800px; /* Optional: Set a maximum width for the images */
+    height: auto;
+    display: block;
+    margin: 20px 0; /* Adds vertical spacing between images */
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Section Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #343a40;
+    color: white;
+}
+
+td {
+    background-color: #f8f9fa;
+}
+
+/* Card Styling */
+.card1, .card2, .card3 {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card1 img, .card2 img, .card3 img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.card1:hover img, .card2:hover img, .card3:hover img {
+    transform: scale(1.05);
+}
+.card1 img {
+    width: 25%; /* Resize the image to 1/4 of its original size */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Makes the image a block-level element */
+    margin: 0 auto; /* Centers the image horizontally within its container */
+}
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+.card1 img,
+.card2 img,
+.card3 img {
+    width: 25%; /* Resize all images to 1/4 of their original size */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Makes the image a block-level element */
+    margin: 0 auto; /* Centers the image horizontally within its container */
+}
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Contact Form Styling */
+#contact {
+    background-color: #f1f1f1;
+    padding: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-control {
+    width: 100%; /* Ensures all inputs and textareas are the same width */
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+/* About Page Styling */
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Contact Us Page Styling */
+.map {
+    margin-bottom: 20px;
+    width: 65%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact h2 {
+    color: black; /* Changed title color to black */
+    cursor: default; /* Ensures the title is not a clickable link */
+}
+#contact p {
+    text-align:center;
+}
+.accordion-img {
+    width: 100%; /* Make the images responsive */
+    max-width: 400px; /* Set a maximum width to keep the images consistent */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensure it is a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    table, .card1, .card2, .card3 {
+        font-size: 0.9rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
