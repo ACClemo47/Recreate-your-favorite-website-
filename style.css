@@ -9,7 +9,7 @@
     text-emphasis: italic;
     color:black;
 }
-    .crowd {
+.crowd {
     border-radius: 15px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow */
 }
@@ -48,7 +48,6 @@ tr:hover {
     transition: 0.3s ease-in-out;
     transform: scale(1.02);
 }
-
 .about-page {
     background-color: lightgray;
 }
@@ -59,7 +58,6 @@ body {
     background-color: #003366;
     transition: 0.3s;
 }
-
 .carousel img {
     border-radius: 15px;
     transition: transform 0.3s;
@@ -71,8 +69,6 @@ table {
     width: 100%;
     text-align: center;
 }
-
-
 .Contact Us-page {
     background-color: beige;
 }
