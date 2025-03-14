@@ -206,11 +206,15 @@ footer {
     text-align:center;
 }
 .accordion-img {
-    width: 100%; /* Make the images responsive */
-    max-width: 400px; /* Set a maximum width to keep the images consistent */
-    height: auto; /* Maintain the aspect ratio */
-    display: block; /* Ensure it is a block element */
-    margin: 0 auto; /* Center the image horizontally */
+    width: 100%;         /* Make image width responsive */
+    height: auto;        /* Maintain aspect ratio */
+    max-width: 500px;    /* Ensure image doesn't stretch too wide */
+    max-height: 300px;   /* Limit image height */
+    object-fit: cover;   /* Ensures images fit without distortion */
+    margin: 10px 0;      /* Add some space around the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Media Queries for Responsiveness */
