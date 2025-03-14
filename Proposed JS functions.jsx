@@ -18,7 +18,7 @@ function validateForm(){
         return false; 
     
 }
-    //CHeck if the email is valid
+    //Check if the email is valid
     const emailRegex=/^{a-zA-ZO-9._%+-]+@{a-zA-ZO-9.-]{2,}$/;
     if (!emailRegex.test(emailInput.value)) {
         alert('Invalidemailaddress.');
